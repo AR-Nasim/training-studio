@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Training Studio</title>
     <link rel="shortcut icon" href="images/features-first-icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="main-header">
+
+    <!-- Navbar & Home -->
+
+    <header class="main-header" id="home">
         <video autoplay muted loop src="images/gym-video.mp4" id="videoplay"></video>
         <div id="opacity"></div>
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -25,26 +29,27 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Classes</a>
-                        <a class="nav-link" href="#">Schedule</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link active mx-3" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link mx-3" href="#about">About</a>
+                        <a class="nav-link mx-3" href="#class">Classes</a>
+                        <a class="nav-link mx-3" href="#schedule">Schedule</a>
+                        <a class="nav-link mx-3" href="#contact">Contact</a>
                         <a class="nav-link submit" href="#">Sign up</a>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="home-text">
-            <h6>WORK HARDER, GET STRONGER</h6>
-            <h1>EASY WITH OUR GYM</h1>
+            <h5>WORK HARDER, GET STRONGER</h5>
+            <h1>EASY WITH OUR <span>GYM</span></h1>
             <a class="submit" href="#">Become a member</a>
         </div>
     </header>
 
 
+    <!-- About -->
 
-    <main class="container">
+    <main class="container" id="about">
         <div class="choose-program">
             <h3>Choose <span>Program</span></h3>
             <img src="images/line-dec.png" alt="">
@@ -55,165 +60,189 @@
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4 d-flex justify-content-center p-3">
-                        <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Basic Fitness</h5>
-                          <p class="card-text">Curabitur scelerisque tellus vulputate velit congue, et sollicitudin libero fringilla. Ut et neque lorem.</p>
-                          <p class="card-text"><a href="">Discover More</a></p>
+                        <div class="col-md-4 d-flex justify-content-center p-3">
+                            <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic Fitness</h5>
+                                <p class="card-text">Curabitur scelerisque tellus vulputate velit congue, et
+                                    sollicitudin libero fringilla. Ut et neque lorem.</p>
+                                <p class="card-text"><a href="">Discover More</a></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4 d-flex justify-content-center p-3">
-                        <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Advanced Muscle Course</h5>
-                          <p class="card-text">You may want to browse through Digital Marketing or Corporate HTML CSS templates on our website.</p>
-                          <p class="card-text"><a href="">Discover More</a></p>
+                        <div class="col-md-4 d-flex justify-content-center p-3">
+                            <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced Muscle Course</h5>
+                                <p class="card-text">You may want to browse through Digital Marketing or Corporate HTML
+                                    CSS templates on our website.</p>
+                                <p class="card-text"><a href="">Discover More</a></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4 d-flex justify-content-center p-3">
-                        <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">New Gym Training</h5>
-                          <p class="card-text">If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot.</p>
-                          <p class="card-text"><a href="">Discover More</a></p>
+                        <div class="col-md-4 d-flex justify-content-center p-3">
+                            <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">New Gym Training</h5>
+                                <p class="card-text">If you wish to support TemplateMo website via PayPal, please feel
+                                    free to contact us. We appreciate it a lot.</p>
+                                <p class="card-text"><a href="">Discover More</a></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4 d-flex justify-content-center p-3">
-                        <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Yoga Training</h5>
-                          <p class="card-text">This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
-                          <p class="card-text"><a href="">Discover More</a></p>
+                        <div class="col-md-4 d-flex justify-content-center p-3">
+                            <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Yoga Training</h5>
+                                <p class="card-text">This template is built on Bootstrap v4.3.1 framework. It is easy to
+                                    adapt the columns and sections.</p>
+                                <p class="card-text"><a href="">Discover More</a></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4 d-flex justify-content-center p-3">
-                        <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Basic Muscle Course</h5>
-                          <p class="card-text">Credit goes to Pexels.com website for images and video background used in this HTML template.</p>
-                          <p class="card-text"><a href="">Discover More</a></p>
+                        <div class="col-md-4 d-flex justify-content-center p-3">
+                            <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic Muscle Course</h5>
+                                <p class="card-text">Credit goes to Pexels.com website for images and video background
+                                    used in this HTML template.</p>
+                                <p class="card-text"><a href="">Discover More</a></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                      <div class="col-md-4 d-flex justify-content-center p-3">
-                        <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">
-                            Body Building Course</h5>
-                          <p class="card-text">Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>
-                          <p class="card-text"><a href="">Discover More</a></p>
+                        <div class="col-md-4 d-flex justify-content-center p-3">
+                            <img src="images/features-first-icon.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Body Building Course</h5>
+                                <p class="card-text">Suspendisse fringilla et nisi et mattis. Curabitur sed finibus
+                                    nisi. Integer nibh sapien, vehicula et auctor.</p>
+                                <p class="card-text"><a href="">Discover More</a></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </main>
 
 
     <section class="main-header">
-        <img src="images/cta-bg.jpg" alt="">
-        <div class="home-text">
-            <h1>Don't <span>Think</span> Begin <span>Today</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum animi atque. Vero, nulla. Suscipit! Lorem ipsum dolor sit amet.</p>
+        <img id="motivation" src="images/cta-bg.jpg" alt="">
+        <div class="motivation">
+            <h2>Don't <span>Think</span> Begin <span>Today</span>!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum animi atque. Vero, nulla.
+                Suscipit! Lorem ipsum dolor sit amet.</p>
             <a class="submit" href="#">Become a member</a>
         </div>
     </section>
 
 
+    <!-- Classes -->
 
-    <section class="container">
+
+    <section class="container" id="class">
         <div class="choose-program">
             <h3>Our <span>Classes</span></h3>
             <img src="images/line-dec.png" alt="">
-            <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+            <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum
+                massa consequat eu.</p>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="col-md-12 p-2">
-                    <div class="p-3">
-                        <img src="images/tabs-first-icon.png" alt=""><h4 style="display: inline;">First Training Class</h4>
+            <div class="col-md-4 col-sm-12">
+                <div class="col-md-12 p-3">
+                    <div class="p-4">
+                        <img src="images/tabs-first-icon.png" alt="">
+                        <h5 style="display: inline;">First Training Class</h5>
                     </div>
                 </div>
-                <div class="col-md-12 p-2">
-                    <div class="p-3">
-                        <img src="images/tabs-first-icon.png" alt=""><h4 style="display: inline;">First Training Class</h4>
+                <div class="col-md-12 p-3">
+                    <div class="p-4">
+                        <img src="images/tabs-first-icon.png" alt="">
+                        <h5 style="display: inline;">Second Training Class</h5>
                     </div>
                 </div>
-                <div class="col-md-12 p-2">
-                    <div class="p-3">
-                        <img src="images/tabs-first-icon.png" alt=""><h4 style="display: inline;">First Training Class</h4>
+                <div class="col-md-12 p-3">
+                    <div class="p-4">
+                        <img src="images/tabs-first-icon.png" alt="">
+                        <h5 style="display: inline;">Third Training Class</h5>
                     </div>
                 </div>
-                <div class="col-md-12 p-2">
-                    <div class="p-3">
-                        <img src="images/tabs-first-icon.png" alt=""><h4 style="display: inline;">First Training Class</h4>
+                <div class="col-md-12 p-3">
+                    <div class="p-4">
+                        <img src="images/tabs-first-icon.png" alt="">
+                        <h5 style="display: inline;">Fourth Training Class</h5>
                     </div>
                 </div>
-                <div class="col-md-12 p-2">
-                    <div class="p-3" style="text-align: center;">
-                        <a class="submit" href="#"><h4 style="display: inline;">First Training Class</h4></a>
+                <div class="col-md-12 p-3">
+                    <div class="p-4" id="orange" style="text-align: center;">
+                        <a class="submit" href="#">
+                            <h5 style="display: inline;">View All Schedule</h5>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
-                <img src="images/training-image-01.jpg" alt="">
-                <h3>First Training Class</h3>
-                <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
-                <a class="submit" href="#">View Schedule</a>
+                <div class="p-3 our-classes">
+                    <img style="width: 100%;" src="images/training-image-01.jpg" alt="">
+                    <h3>First Training Class</h3>
+                    <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit.
+                        Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia
+                        gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                    <a class="submit" href="#">View Schedule</a>
+                </div>
             </div>
         </div>
     </section>
 
 
-    <section class="main-header">
-        <img src="images/schedule-bg.jpg" alt="">
-        <div class="home-text">
-            <h1>Classes <span>Schedule</span></h1>
-            <img style="width: 7%;" src="images/line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum animi atque. Vero, nulla. Suscipit! Lorem ipsum dolor sit amet.</p>
+    <!-- Schedule -->
+
+
+    <section class="course" id="schedule">
+        <img id="schedule-img" src="images/schedule-bg.jpg" alt="">
+        <div class="choose-program home-text">
+            <h3>Classes <span>Schedule</span></h3>
+            <img style="" src="images/line-dec.png" alt="">
+            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum animi atque. Vero, nulla.
+                Suscipit! Lorem ipsum dolor sit amet.</p>
             <table>
                 <tbody>
                     <tr>
@@ -225,7 +254,8 @@
                     <tr>
                         <td class="day-time">Muscle Training</td>
                         <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
-                        <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
+                        <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM
+                        </td>
                         <td>Paul D. Newman</td>
                     </tr>
                     <tr>
@@ -251,72 +281,102 @@
         </div>
     </section>
 
+    <!-- Trainer -->
 
     <section class="container">
         <div class="choose-program">
             <h3>Expert <span>Trainers</span></h3>
             <img src="images/line-dec.png" alt="">
-            <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+            <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum
+                massa consequat eu.</p>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card h-100">
-                <img src="images/first-trainer.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6>Strength Trainer</h6>
-                  <h5 class="card-title">Bret D. Bowers</h5>
-                  <p class="card-text">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                <div class="card h-100">
+                    <img class="p-3" src="images/first-trainer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6>Strength Trainer</h6>
+                        <h5 class="card-title">Bret D. Bowers</h5>
+                        <p class="card-text">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
+                            gluten-free vegan church-key pour-over seitan flannel.</p>
+                    </div>
+                    <div class="card-footer">
+                        <img src="images/facebook-circular-logo.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                    </div>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="images/second-trainer.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6>Muscle Trainer</h6>
-                  <h5 class="card-title">Hector T. Daigl</h5>
-                  <p class="card-text">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                <div class="card h-100">
+                    <img class="p-3" src="images/second-trainer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6>Muscle Trainer</h6>
+                        <h5 class="card-title">Hector T. Daigl</h5>
+                        <p class="card-text">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
+                            gluten-free vegan church-key pour-over seitan flannel.</p>
+                    </div>
+                    <div class="card-footer">
+                        <img src="images/facebook-circular-logo.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                    </div>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="images/third-trainer.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6>Power Trainer</h6>
-                  <h5 class="card-title">Paul D. Newman</h5>
-                  <p class="card-text">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                <div class="card h-100">
+                    <img class="p-3" src="images/third-trainer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6>Power Trainer</h6>
+                        <h5 class="card-title">Paul D. Newman</h5>
+                        <p class="card-text">Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
+                            gluten-free vegan church-key pour-over seitan flannel.</p>
+                    </div>
+                    <div class="card-footer">
+                        <img src="images/facebook-circular-logo.png" alt="">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/linkedin.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                    </div>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
     </section>
 
 
+    <!-- Contact -->
 
-    <section class="main-header">
+
+    <section class="main-header" id="contact">
         <img src="images/cta-bg.jpg" alt="">
-        <div class="home-text">
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="text" name="" id="" placeholder="Your Email">
-                <input type="text" name="" id="" placeholder="Subject">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <div class="choose-program home-text">
+            <form class="contact" action="">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <input type="text" name="" id="" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" name="" id="" placeholder="Subject">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="submit" href="#">Submit</a>
+                    </div>
+                </div>
+                
             </form>
         </div>
     </section>
 
-    <footer style="text-align: center;padding: 20px 0;">
-        <small>&copy; 2021 AR Nasim. All rights reserved.</small>
+    <footer style="text-align: center;padding: 20px 0;font-weight: 100;font-family: sans-serif;">
+        <small>&copy; 2021 <span>AR Nasim</span>. All rights reserved.</small>
     </footer>
 
 </body>
