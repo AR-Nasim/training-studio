@@ -262,6 +262,9 @@ body::-webkit-scrollbar-thumb{
     font-size: 5rem;
     font-weight: 500;
 }
+#days,#minutes,#seconds,#hours{
+    text-shadow: .1rem .1rem 3rem #ed563b;
+}
 
 
 /*-- Contact --*/
