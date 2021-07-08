@@ -13,7 +13,7 @@ span{
 p{
     font-weight: 100;
     font-family: sans-serif;
-    color: rgb(126, 122, 122);
+    color: rgb(87, 84, 84);
     text-transform: initial;
 }
 a{
@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
 }
 .home-text h1{
-    font-size: 7rem;
+    font-size: 8rem;
     letter-spacing: 1px;
     word-spacing: 1px;
     font-weight: bolder;
@@ -241,6 +241,28 @@ body::-webkit-scrollbar-thumb{
     background-color: #ed563b;
 }
 
+/*-- Countdown --*/
+.choose-dis{
+    position: relative;
+    height: 35vh;
+    text-align: center;
+}
+#counts{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 4rem 0;
+}
+#counts li{
+    width: 10rem;
+}
+#counts li h1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
 
 /*-- Contact --*/
 
@@ -266,17 +288,17 @@ body::-webkit-scrollbar-thumb{
 
 @media only screen and (max-width: 600px){
     html{
-        font-size: .4rem;
+        font-size: .55rem;
     }
 }
 @media only screen and (min-width: 600px){
     html{
-        font-size: .6rem;
+        font-size: .75rem;
     }
 }
 @media only screen and (min-width: 992px){
     html{
-        font-size: .8rem;
+        font-size: .85rem;
     }
 }
 @media only screen and (min-width: 1200px){
