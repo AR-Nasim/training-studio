@@ -26,6 +26,10 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     text-transform: uppercase;
 }
+::selection{
+    background-color: #ed563b;
+    color: black;
+}
 
 
 /*-- Scrollbar --*/
@@ -271,7 +275,7 @@ body::-webkit-scrollbar-thumb{
 
 .contact-main{
     position: relative;
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
 }
 .contact-main img{

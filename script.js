@@ -1,7 +1,7 @@
-const days = document.getElementById('days');
-const hours = document.getElementById('hours');
-const mins = document.getElementById('minutes');
-const secs = document.getElementById('seconds');
+// const days = document.getElementById('days');
+// const hours = document.getElementById('hours');
+// const mins = document.getElementById('minutes');
+// const secs = document.getElementById('seconds');
 
 function timer(){
     const currentDate = new Date();
@@ -13,10 +13,10 @@ function timer(){
     const remainingMinutes = Math.floor((totalSec/60)%60) > 0 ? Math.floor((totalSec/60)%60) : 0;
     const remainingSecs = Math.floor(totalSec%60) >= 0 ? Math.floor(totalSec%60) : 0;
     
-    days.innerHTML = remainingDays;
-    hours.innerHTML = remainingHours;
-    mins.innerHTML = remainingMinutes;
-    secs.innerHTML = remainingSecs;
+    $('#days').html(remainingDays);
+    $('#hours').html(remainingHours);
+    $('#minutes').html(remainingMinutes);
+    $('#seconds').html(remainingSecs);
 }
 timer();
 setInterval(timer,1000);
